@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-0 right-0 w-full bg-white text-black shadow-md">
+      <div className="fixed top-0 right-0 w-full bg-white text-black shadow-md z-[99999]">
         <div className="bg-gradient-to-r from-primary to-secondary text-white">
           <div className="container py-[2px] sm:block hidden">
             <div className="flex justify-between ">
@@ -118,7 +118,7 @@ const Navbar = () => {
             </div>
             {/* book now button */}
 
-            <div className="flex items-center gap-4">
+            <div className="flex  items-center gap-4">
               <button className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">
                 Book Now
               </button>
