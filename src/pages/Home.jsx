@@ -1,6 +1,10 @@
 import React from 'react'
 import MainVid from ".././assets/video/main.mp4";
 import Hero from '../components/Hero/Hero';
+import PLaces from '../components/Places/PLaces';
+import BannerImg from '../components/Banner/BannerImg';
+import banImage from "../assets/cover-women.jpg"
+import Blogs from './Blogs';
 
 const Home = () => {
   return (
@@ -11,6 +15,9 @@ const Home = () => {
         </video>
         <Hero/>
       </div>
+      <PLaces/>
+      <BannerImg img = {banImage}/>
+      <Blogs/>
     </div>
   )
 }
