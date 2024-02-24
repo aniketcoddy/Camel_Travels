@@ -17,7 +17,7 @@ const bgImage = {
 };
 
     return (
-    <div style={bgImage} data-aos="zoom-in" className='h-[400px] w-full'></div>
+    <div style={bgImage} data-aos="zoom-in" data-aos-duration="700" className='h-[400px] transition-all w-full'></div>
   )
 }
 

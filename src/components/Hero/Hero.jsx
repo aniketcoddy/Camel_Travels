@@ -13,14 +13,14 @@ const Hero = () => {
     <div className=" bg-black/20 h-full">
       <div className="flex h-full justify-center items-center p-4 bg-primary/10">
         <div className="conatainer grid grid-cols-1 gap-4">
-          <div className="text-white" data-aos="fade-up" data-aos-delay="300">
+          <div className="text-white" data-aos="fade-up" data-aos-duration="300">
             <p>Our packages</p>
             <p className="font-bold text-3xl">Search Your Destination</p>
           </div>
           {/* form section */}
           <div
             data-aos="fade-up"
-            data-aos-delay="800"
+            data-aos-duration="800"
             className="space-y-4 transition-all bg-white rounded-md p-4 relative"
           >
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 py-3 ">

@@ -70,10 +70,10 @@ const PLaces = () => {
   return (
     <div className="bg-gray-50 py-10">
       <div className="container">
-        <h1 className="text-3xl my-8 py-2 pl-2 font-bold border-l-8 border-primary/50">
+        <h1 data-aos="fade-up" data-aos-duration = "300" className="text-3xl transition-all my-8 py-2 pl-2 font-bold border-l-8 border-primary/50">
           Best Places to Visit
         </h1>
-        <div data-aos="fade-up" data-aos-delay = "1000" className="grid transition-all grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div data-aos="fade-up" data-aos-duration = "500" className="grid transition-all grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {
             PlaceData.map((item , index)=>{
                return(

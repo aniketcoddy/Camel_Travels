@@ -5,6 +5,9 @@ import PLaces from '../components/Places/PLaces';
 import BannerImg from '../components/Banner/BannerImg';
 import banImage from "../assets/cover-women.jpg"
 import Blogs from './Blogs';
+import AniPost from '../components/AnimatePoster/AniPost';
+import banImg2 from "../assets/travel-cover2.jpg"
+import Testimonails from '../components/Testimonials/Testimonails';
 
 const Home = () => {
   return (
@@ -18,6 +21,8 @@ const Home = () => {
       <PLaces/>
       <BannerImg img = {banImage}/>
       <Blogs/>
+      <AniPost/>
+      <BannerImg img = {banImg2}/>
     </div>
   )
 }
