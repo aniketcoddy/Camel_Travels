@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LogoImg from "../../assets/logo.png";
+import LogoImg from "../../assets/TravelLogo.png";
 import { Link, NavLink } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu.jsx"
@@ -7,15 +7,15 @@ import MenuBar from "../../assets/ham.png"
 
 const dropdownLinks = [
   {
-    name: "our Services",
+    name: "Loaction",
     links: "/#services",
   },
   {
-    name: "our Services",
+    name: "Choices",
     links: "/#services",
   },
   {
-    name: "our Services",
+    name: "Cart",
     links: "/#services",
   },
 ];
@@ -47,7 +47,7 @@ const Navbar = ({handleOrderPopup}) => {
             {/* logo adding */}
             <div>
               <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-                <img src={LogoImg} alt=" " className="h-16" />
+                <img src={LogoImg} alt=" " className="h-20" />
               </Link>
             </div>
             {/* laptop and desktopview navbar making */}

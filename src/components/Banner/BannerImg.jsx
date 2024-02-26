@@ -13,7 +13,7 @@ const bgImage = {
     backgroundImage : `url(${img})`,
     backgroundSize:"cover",
     backgroundPosition:"center",
-    height: "400px"
+    height: "500px",
 };
 
     return (

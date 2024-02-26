@@ -33,7 +33,7 @@ const AniPost = () => {
                 data-aos-duration="500"
                 className="text-3xl transition-all font-bold sm:text-4xl"
               >
-                Explore all corners of the world with us
+                Explore all corners of the Rajasthan with us
               </h1>
               <p data-aos="fade-up" data-aos-duration="500" className="text-sm text-gray-500 tracking-wide leading-8">
                 Wikis are enabled by wiki software, otherwise known as wiki

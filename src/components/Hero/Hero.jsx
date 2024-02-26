@@ -32,7 +32,7 @@ const Hero = () => {
                   type="text"
                   name="destination"
                   id="destination"
-                  placeholder="Dubai"
+                  placeholder="Jaipur"
                   className="w-full bg-gray-200 my-2 text-sm range accent-primary focus:outline-primary
                    focus:outline outline-1 rounded-full p-2"
                 />

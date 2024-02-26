@@ -3,10 +3,10 @@ import MainVid from ".././assets/video/main.mp4";
 import Hero from '../components/Hero/Hero';
 import PLaces from '../components/Places/PLaces';
 import BannerImg from '../components/Banner/BannerImg';
-import banImage from "../assets/cover-women.jpg"
+import banImage from "../assets/Cover1.jpg"
 import Blogs from './Blogs';
 import AniPost from '../components/AnimatePoster/AniPost';
-import banImg2 from "../assets/travel-cover2.jpg"
+import banImg2 from "../assets/places/palace.jpg"
 import Popup from '../components/Popup/Popup';
 
 const Home = () => {
