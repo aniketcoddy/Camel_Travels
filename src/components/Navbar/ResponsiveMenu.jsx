@@ -17,7 +17,7 @@ const navbarLinks = [
   },
   {
     name: "Best Places",
-    links: "/best-places",
+    links: "/places",
   },
 ];
 
@@ -45,10 +45,10 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
         {/* navlinks of sidebar */}
         <div className=" text-black mt-11">
           <ul className="space-y-4 text-lg">
-            {navbarLinks.map(({ name, link }) => (
+            {navbarLinks.map(({ name, links }) => (
               <li >
                 <Link
-                  to={link}
+                  to={links}
                   onClick={() => {
                     setShowMenu(false);
                   }}

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import LogoImg from "../../assets/logo.png";
 import { Link, NavLink } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
-import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu.jsx"
 import MenuBar from "../../assets/ham.png"
 
@@ -21,12 +20,14 @@ const dropdownLinks = [
   },
 ];
 
-const Navbar = () => {
+const Navbar = ({handleOrderPopup}) => {
+
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+
 
   return (
     <>
@@ -119,7 +120,7 @@ const Navbar = () => {
             {/* book now button */}
 
             <div className="flex  items-center gap-4">
-              <button className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">
+              <button onClick={()=>handleOrderPopup(true)}  className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">
                 Book Now
               </button>
               {/* hamburger menu icon for mobile view */}

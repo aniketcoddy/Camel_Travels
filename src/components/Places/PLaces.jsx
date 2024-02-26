@@ -61,7 +61,7 @@ const PlaceData = [
     },
 ];
 
-const PLaces = () => {
+const PLaces = ({handleOrderPopup}) => {
 
   useEffect(() => {
     AOS.init(); // Initialize AOS
@@ -77,7 +77,7 @@ const PLaces = () => {
           {
             PlaceData.map((item , index)=>{
                return(
-                <PlacesCard key={index} {...item} />
+                <PlacesCard handleOrderPopup={handleOrderPopup}  key={index} {...item} />
                )
             })
           }
