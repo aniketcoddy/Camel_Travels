@@ -2,7 +2,7 @@ import React from "react";
 import { IoLocationSharp } from 'react-icons/io5'
 const PlacesCard = ({ image, name, location, details, zone, price ,handleOrderPopup }) => {
   return (
-    <div onClick={handleOrderPopup} className="shadow-lg transition-all duration-500 hover:shadow-xl cursor-pointer ">
+    <div onClick={handleOrderPopup} className="shadow-2xl  transition-all duration-500 hover:shadow-2xl hover:shadow-[#f36527] cursor-pointer ">
       <div className="overflow-hidden">
         <img
           src={image}
